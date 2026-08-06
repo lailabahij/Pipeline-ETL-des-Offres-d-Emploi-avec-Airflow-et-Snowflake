@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: JOB_MARKET_DB
+    schema: BRONZE
+
+    tables:
+      - name: POSTINGS_RAW
+      - name: COMPANIES_RAW
+      - name: COMPANY_INDUSTRIES_RAW
+      - name: COMPANY_SPECIALITIES_RAW
+      - name: EMPLOYEE_COUNTS_RAW
+      - name: BENEFITS_RAW
+      - name: JOB_SKILLS_RAW
+      - name: JOB_INDUSTRIES_RAW
+      - name: SALARIES_RAW
+      - name: SKILLS_RAW
+      - name: INDUSTRIES_RAW
